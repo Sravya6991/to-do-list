@@ -1,0 +1,137 @@
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-family: 'Satisfy', sans-serif;
+}
+
+.container {
+    border: 1px solid transparent;
+    border-radius: 10px;
+    width: 70%;
+    text-align: left;
+    margin: 10px auto;
+    background-color: rgb(224, 82, 82);
+    color: wheat;
+    font-size: 18px;
+}
+
+#main-container {
+    margin: 5px auto;
+    text-align: center;
+}
+
+
+#new-input-item {
+    font-family: 'Montserrat', sans-serif;
+    border-color: cornsilk;
+    border-radius: 10px;
+    width: 70%;
+    font-size: 18px;
+    margin: 20px auto;
+    color: rgb(75, 63, 63);
+    font-weight: bold;
+    padding: 10px;
+}
+
+#new-submit {
+    margin-left: 50px;
+    padding: 10px 20px;
+    background-color: rgb(212, 175, 63);
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#new-submit:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(212, 175, 63);
+}
+
+.list-items {
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+
+section {
+    font-size: inherit;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 1px;
+    color: aliceblue;
+    width: 90%;
+}
+
+.task {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 10px;
+    border: 1px solid cornsilk;
+    border-radius: 5px;
+    background-color: cornsilk;
+}
+.content{
+    position: absolute;
+    left: 0;
+    top: 10%;
+}
+
+.text {
+    font-size: 18px;
+    font-family: cursive;
+    color: rgb(224, 82, 82);
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+    width: 500px;
+    height: auto;
+    padding: 10px 20px;
+    border-style: none;
+    border: 0px solid;
+    background-color: transparent;
+}
+.text:focus {
+    outline: none;
+}
+
+.task .content .text:not(:read-only) {
+	color: palevioletred;
+}
+
+.actions {
+    position: absolute;
+    right: 0;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px;
+}
+
+.actions button{
+    background-color: rgb(224, 82, 82);
+    color: white;
+    text-align: center;
+    margin-left: 15px;
+    font-size: inherit;
+    padding: 10px 20px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.actions button:hover {
+    background-color: rgb(212, 175, 63);
+}
+
+.actions button:active {
+    opacity: 0.6;
+}
+
+/* --------------------------------------------------- */
+
